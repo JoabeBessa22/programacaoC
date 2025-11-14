@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+    float temperatura, umidade;
+    unsigned int estoque;
+
+    printf("entre com a temperatura: \n");
+    scanf("%f", &temperatura");
+    printf("entre com a umidade: \n");
+    scanf("%f", &umidade");
+    printf("entre com estoque: \n");
+    scanf("%u", &estoque");
+
+    if ( temperatura > 30 ){
+         printf("Tempuratura está alta alta.\n");
+    } else {
+         printf("Temperatura está dentro dso parâmetros.\n");
+    }
+
+    if (umidade > 50 ){
+         printf("umidade elevada.\n");
+    } else {
+         printf("Temperatura está dentro dos parâmetros")
+    }
+    
+    
+    }
